@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine
 
 RUN apk --update --no-cache add curl bash build-base python3 docker zip git && \
   pip3 install --upgrade pip && \
